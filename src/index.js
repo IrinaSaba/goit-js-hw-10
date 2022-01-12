@@ -41,6 +41,7 @@ refs.searchCountry.addEventListener(
         .catch(error => notiflixWarning(warning));
     }
     refs.countryList.innerHTML = '';
+    refs.countryInfo.innerHTML = '';
   }),
   DEBOUNCE_DELAY,
 );
